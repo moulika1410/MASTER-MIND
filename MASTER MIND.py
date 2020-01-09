@@ -67,3 +67,5 @@ else:
     if n == num:
         print("You've become a Mastermind!")
         print("It took you only", ctr, "tries.")
+from playsound import playsound
+playsound('Game-ending-sound-effect.mp3')
