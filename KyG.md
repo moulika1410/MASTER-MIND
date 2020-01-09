@@ -1,7 +1,7 @@
 # Project Title :MASTER MIND 
 ### Batch NO : 06
 ### Mentor Name :MS.PRISCILLA JOY 
-### Github Link : 
+### Github Link : https://github.com/sammoulika-1408/MASTER-MIND
 ### Team Details :
 | S.no  | Name  | Roll Number  | Email Id  |
 |-------|-------|--------------|-----------|
