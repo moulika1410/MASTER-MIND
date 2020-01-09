@@ -69,3 +69,6 @@ else:
         print("It took you only", ctr, "tries.")
 from playsound import playsound
 playsound('Game-ending-sound-effect.mp3')
+from PIL import Image
+myImage = Image.open("new image.jpg");
+myImage.show();
