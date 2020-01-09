@@ -4,7 +4,7 @@ import random
 
 # the .randrange() function generates a
 # random number within the specified range.
-num = random.randrange(1000, 10000)
+num = random.randrange(1000, 3000)
 
 n = int(input("Guess the 4 digit number:"))
 
@@ -52,7 +52,7 @@ else:
         # when not all the digits are guessed correctly.
         if (count < 4) and (count != 0):
             print("Not quite the number. But you did get ", count, " digit(s) correct!")
-            print("Also these numbers in your input were correct.")
+            print("Also displayed numbers in your input were correct.")
             for k in correct:
                 print(k, end=' ')
             print('\n')
@@ -61,10 +61,10 @@ else:
 
         # when none of the digits are guessed correctly.
         elif (count == 0):
-            print("None of the numbers in your input match.")
+            print("None of the numbers in your input is correct.")
             n = int(input("Enter your next choice of numbers: "))
 
     # condition for equality.
     if n == num:
-        print("You've become a Mastermind!")
+        print("EXCELLANT!You've become a Mastermind!")
         print("It took you only", ctr, "tries.")
